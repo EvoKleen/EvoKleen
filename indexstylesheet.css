@@ -1,0 +1,249 @@
+/*TOP BAR*/
+#WhiteTopBar
+{
+	position:fixed;
+	background-color:white;
+	z-index:1;
+	width:100%;
+	height: 60px;
+	margin-top:-8px;
+		
+}
+.logo
+{
+	position:fixed;
+	float:left;
+	margin-left: -25px;
+	margin-top:-15px;
+	width:10%;
+	height:9%;
+	
+}
+#EvoKleen
+{
+	float:center;
+	font-family:Century Gothic;
+	text-align:center;
+	width:100%;
+	font-size:50px;
+	color:white;
+	padding: 5px 5px 5px 5px;
+	background:rgb(0,0,0);
+	background:rgba(0,123,123,0.4); /*0,123,255,0.4*/
+}
+
+#EvoKleenBox
+{
+	/*top:180px;*/
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	position:absolute;
+}
+#ButtonHome
+{
+	float:right;
+	height:60px;
+    width:150px;
+    background-color:white;
+    margin-left:160px;
+	text-align:center;
+	position:fixed;
+	margin-top:-16px;
+	line-height:58px;
+	cursor: pointer;
+	
+}
+
+
+#ButtonAbout
+{
+	float:right;
+	height:60px;
+    width:150px;
+    background-color:white;
+    margin-left:310px;
+	text-align:center;
+	position:fixed;
+	margin-top:-16px;
+	line-height:58px;
+	cursor: pointer;
+	
+}
+
+#ButtonServices
+{
+	float:right;
+	height:60px;
+    width:150px;
+    background-color:white;
+    margin-left:460px;
+	text-align:center;
+	position:fixed;
+	margin-top:-16px;
+	line-height:58px;
+	cursor: pointer;
+
+}
+#ButtonGallery
+{
+	float:right;
+	height:60px;
+    width:150px;
+    background-color:white;
+    margin-left:610px;
+	text-align:center;
+	position:fixed;
+	margin-top:-16px;
+	line-height:58px;
+	cursor: pointer;
+}
+#ButtonContact
+{
+	float:right;
+	height:60px;
+    width:150px;
+    background-color:white;
+    margin-left:760px;
+	text-align:center;
+	position:fixed;
+	margin-top:-16px;
+	line-height:58px;
+	cursor: pointer;
+}
+
+
+#ButtonTexts
+{
+	font-family:Century Gothic, sans-serif;	
+	font-size:16px;
+	color:black;
+	font-weight:bold;
+}
+
+.dropdown 
+{
+    position: fixed;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content 
+{
+    margin-top:0px;
+	display: none;
+    position: absolute;
+    background-color: #ffffff !important;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	overflow-y: auto;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a
+{
+    color: black;
+	font-family:Century Gothic, sans-serif;	
+	font-size:14px;
+    padding: 0px 0px;
+    text-decoration: none;
+    display: block;
+	overflow-y: auto;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover 
+{
+	background-color: #87fd58 !important;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover 
+{
+    background-color: #87fd58 !important;
+}
+
+
+.icon
+{
+	float:right;
+	margin-right:20px;
+	margin-top:-13px;
+}
+/*END OF TOP BAR*/
+
+/*CONTENT*/
+#GreenBar
+{
+	
+	position:relative;
+	float: left;
+	background-color:#87fd58;
+	width:100%;
+	height: 51px;
+    border-radius: 20px !important;
+}
+
+#HomeHeader
+{
+	float:right;
+	height:60px;
+	width:100%;
+    background-color:#87fd58;
+	position:absolute;
+	line-height:58px;
+	cursor: pointer;
+	
+}
+
+#OptionsTexts
+{
+	text-decoration: none !important;
+	font-family:Century Gothic, sans-serif;	
+	font-size:24px;
+	color:black;
+	font-weight:bold;
+	text-align:center;
+	float:center;
+	line-height:20px;	
+}
+
+#SPACE
+{
+	
+	height:15px;
+	background-color:white;
+	width:100%;
+}
+
+p
+{
+	font-family: Century Gothic;
+	font-size:16px;
+	color: #696868;
+	white-space: nowrap;
+	padding-left: 60px;
+}
+
+li
+{
+	font-family: Century Gothic;
+	font-size:16px;
+	color: #696868;
+	white-space: nowrap;
+	padding-left: 60px;
+}
+/*
+.HomeHeader:hover 
+{
+   background-color: #ff8247 !important;
+}
+*/
+
+/*END OF CONTENT*/
